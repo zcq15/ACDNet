@@ -20,7 +20,7 @@ class Options(object):
         # add parser
         self.parser.add_argument('--gpus', type=str, default='0', help='gpus')
 
-        self.parser.add_argument('--checkpoints', type=str, default='./checkpoints/m3d/acdnet.pt', help='models are saved here')
+        self.parser.add_argument('--checkpoints', type=str, default='./checkpoints/acdnet-m3d.pt', help='models are saved here')
         self.parser.add_argument('--example', type=str, default='./examples/m3d.png', help='example')
 
     def _init_global(self):
